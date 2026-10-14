@@ -1,0 +1,20 @@
+{
+  "name": "fluxy-server",
+  "version": "1.0.0",
+  "description": "FLUXY License Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "better-sqlite3": "^11.0.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "dotenv": "^16.4.5"
+  }
+}
